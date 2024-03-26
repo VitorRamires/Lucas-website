@@ -1,0 +1,92 @@
+.menu-desk {
+    position: relative;
+    width: 100%;
+    padding: 50px 10%;
+    background-color: #232323;
+    border-bottom: 3px solid #3765db;
+  }
+  
+  .menu-desk .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .linkedin,
+  .links ul {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: "lato-light";
+    font-size: 1.25rem;
+    color: #ffff;
+  }
+  
+  .links ul {
+    gap: 50px;
+    list-style-type: none;
+  }
+  
+  .links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .linkedin {
+    gap: 30px;
+    font-family: "lato-bold";
+  }
+  
+  .linkedin img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.58fr 0.42fr;
+  }
+  
+  .banner-info {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, #1a1919, #262626);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-family: "lato-thin";
+  }
+  
+  .texto h2 {
+    position: relative;
+    width: 100%;
+    font-size: 5.5rem;
+    font-family: "lato-light";
+    margin-bottom: 25px;
+  }
+  
+  .texto h3 {
+    margin-bottom: 85px;
+    font-size: 2rem;
+  }
+  
+  .texto a {
+    color: #9ec5ff;
+    font-size: 1.1rem;
+    font-family: "lato-regular";
+    text-decoration: none;
+  }
+  
+  .banner-imagem img {
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+  
