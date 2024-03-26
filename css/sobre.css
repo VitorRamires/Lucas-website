@@ -3,5 +3,36 @@
   width: 100%;
   padding: 50px;
   background-color: #232323;
-  border-bottom: 3px solid #3765DB;
+  border-bottom: 3px solid #3765db;
+}
+
+.menu-desk .center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkedin,
+.links ul {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-family: "lato-light";
+  font-size: 1.25rem;
+  color: #ffff;
+}
+
+.links ul{
+	gap: 50px;
+	list-style-type: none;
+}
+
+.linkedin{
+	gap: 30px;
+	font-family: "lato-bold";
+}
+
+.linkedin img {
+  width: 40px;
+  height: 40px;
 }
