@@ -27,3 +27,15 @@
   max-width: 100%;
   margin:0 auto;
 }
+
+.section-titulo{
+  color: #324880;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "lato-regular";
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

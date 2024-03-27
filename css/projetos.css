@@ -4,17 +4,6 @@
   margin-bottom: 100px;
 }
 
-.projetos-titulo {
-  color: #324880;
-  font-size: 2rem;
-  text-align: center;
-  font-family: "lato-regular";
-  margin-bottom: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
 
 .projetos-carousel {
   width: 100%;
