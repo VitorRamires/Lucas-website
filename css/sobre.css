@@ -6,9 +6,9 @@
 }
 
 .texto-sobre-mim {
-  background-color: black;
+  position: relative;
+  background: linear-gradient(180deg, #474747, #2c2c2c, #2c2c2c);
   padding: 70px;
-  background: linear-gradient(180deg, #282828, #393939, #393939);
   font-size: 1.2rem;
   line-height: 1.7rem;
   border-radius: 10px;
