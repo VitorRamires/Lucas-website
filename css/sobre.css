@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   font-family: "lato-light";
-  margin: 150px 0;
+  margin: 150px 0 250px 0;
 }
 
 .texto-sobre-mim {
@@ -11,7 +11,6 @@
   padding: 70px;
   font-size: 1.2rem;
   line-height: 1.7rem;
-  border-radius: 10px;
   box-shadow: 0 15px 5px 5px rgba(0, 0, 0, 0.288);
   font-family: "lato-light";
   color: #cfcfcf;
