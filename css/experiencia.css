@@ -36,7 +36,14 @@
   color: #ffffff;
 }
 
-
+.lista-experiencias {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 150px;
+}
 
 .experiencia {
   width: 100%;
@@ -93,12 +100,4 @@
 
 .experiencia:first-child::before {
   background: linear-gradient(180deg, #55ff33, #2d8b1a);
-}
-
-.lista-experiencias {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
 }
