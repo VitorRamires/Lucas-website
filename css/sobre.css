@@ -5,21 +5,25 @@
   margin: 150px 0 250px 0;
 }
 
+.sobre-mim .center {
+  max-width: 1300px;
+}
+
 .texto-sobre-mim {
   position: relative;
-  background: linear-gradient(180deg, #474747, #2c2c2c, #2c2c2c);
-  padding: 70px;
+  background: linear-gradient(180deg, #646464, #2c2c2c);
+  padding: 90px 120px;
   font-size: 1.2rem;
   line-height: 1.7rem;
-  box-shadow: 0 15px 5px 5px rgba(0, 0, 0, 0.288);
+  box-shadow: 20px 20px 3px 0 rgba(0, 0, 0, 0.288);
   font-family: "lato-light";
   color: #cfcfcf;
 }
 
 .texto-sobre-mim h2 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 50px;
+  font-size: 3.5rem;
+  margin-bottom: 80px;
   color: #ffffff;
 }
 
@@ -30,20 +34,24 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #3c68d9;
+  background-color: #4276fc;
 }
 
 .ver-linkedin {
   text-align: center;
-  margin: 70px 0 30px 0;
 }
 
 .ver-linkedin a {
-  width: fit-content;
-  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  padding: 20px;
   color: #ffffff;
   background-color: #294282;
   font-size: 1.5rem;
   text-decoration: none;
   font-family: "lato-regular";
+  margin: 70px auto 30px auto;
 }
