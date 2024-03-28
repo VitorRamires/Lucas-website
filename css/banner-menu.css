@@ -84,9 +84,11 @@
     text-decoration: none;
   }
   
-  .banner-imagem img {
+  .banner-imagem img, .banner-imagem {
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    min-height: 500px;
     display: flex;
+    object-fit: cover;
   }
   
