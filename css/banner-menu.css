@@ -77,7 +77,10 @@
 }
 
 .banner {
-  position: relative;
+  /*position: sticky;
+  top:0;
+  left:0*/
+  position: relative;;
   width: 100%;
   display: grid;
   grid-template-columns: 0.58fr 0.42fr;
@@ -122,10 +125,7 @@
 .banner-imagem {
   position: relative;
   max-width: 100%;
-  min-height: 500px;
+  min-height: 850px;
   display: flex;
   object-fit: cover;
-}
-
-.links ul li a:hover {
 }

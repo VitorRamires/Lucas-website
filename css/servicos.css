@@ -1,0 +1,44 @@
+.servicos {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.381fr 1fr;
+  background-color: #242424;
+  place-items: start;
+  font-family: "lato-semibold";
+  color: #ffffff;
+}
+
+.imagem-servicos {
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+.imagem-servicos img {
+  max-width: 100%;
+  min-height: 950px;
+  object-fit: cover;
+  border-radius: 0 7px 7px 0;
+}
+
+.lista-servicos {
+  position: relative;
+  margin-left: 8%;
+}
+
+.lista-servicos h2 {
+  font-size: 2.4rem;
+  margin: 100px 0;
+}
+
+.lista-servicos ul {
+  list-style-type: none;
+  font-family: "lato-regular";
+}
+.lista-servicos ul li {
+  list-style-type: none;
+  font-family: "lato-light";
+  margin: 60px 0;
+  font-size: 1.2rem;
+}
