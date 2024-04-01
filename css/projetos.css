@@ -34,6 +34,7 @@
 
 .projeto img {
   width: 100%;
+  display: flex;
 }
 
 .projeto-info {

@@ -11,34 +11,51 @@
 
 .imagem-servicos {
   width: 100%;
-  display: flex;
+  position: relative;
   object-fit: cover;
 }
 
 .imagem-servicos img {
-  max-width: 100%;
-  min-height: 950px;
+  width: 100%;
+  min-height: 920px;
   object-fit: cover;
-  border-radius: 0 7px 7px 0;
+  display: flex;
 }
 
 .lista-servicos {
   position: relative;
-  margin-left: 8%;
+  padding-top: 50px;
+  width: 100%;
+  box-shadow: inset 0 50px 0 0 #34487c;
 }
 
 .lista-servicos h2 {
   font-size: 2.4rem;
   margin: 100px 0;
+  margin-left: 8%;
 }
 
 .lista-servicos ul {
   list-style-type: none;
   font-family: "lato-regular";
+  margin-left: 8%;
 }
+
 .lista-servicos ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
   list-style-type: none;
   font-family: "lato-light";
   margin: 60px 0;
   font-size: 1.2rem;
+}
+
+.lista-servicos ul li::before {
+  content: "";
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(35deg, #3765db, #4276fc);
 }
