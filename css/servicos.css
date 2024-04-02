@@ -30,7 +30,7 @@
 }
 
 .lista-servicos h2 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin: 100px 0;
   margin-left: 8%;
 }
@@ -49,7 +49,7 @@
   list-style-type: none;
   font-family: "lato-light";
   margin: 60px 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .lista-servicos ul li::before {
