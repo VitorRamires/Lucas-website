@@ -153,10 +153,20 @@
 
   .banner-info {
     padding: 100px 0;
+    text-align: center;
   }
 
   .menu-desk {
     position: relative;
+  }
+
+  .banner-imagem img,
+  .banner-imagem {
+    position: relative;
+    max-width: 100%;
+    min-height: 0;
+    display: flex;
+    object-fit: cover;
   }
 }
 
