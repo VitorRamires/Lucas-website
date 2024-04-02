@@ -3,7 +3,7 @@
   width: 100%;
   font-family: "lato-light";
   margin: 150px 0 350px 0;
-  padding-top:150px;
+  padding-top: 150px;
 }
 
 .box-sobre-mim {
@@ -31,6 +31,16 @@
   color: #ffffff;
 }
 
+.icone-sobre {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.icone-sobre img {
+  width: 100%;
+  height: 100%;
+}
+
 .decoration {
   position: absolute;
   width: 100%;
@@ -50,6 +60,7 @@
   align-items: center;
   justify-content: center;
   width: 300px;
+  max-width: 90%;
   height: 70px;
   padding: 20px;
   color: #ffffff;
