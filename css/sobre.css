@@ -89,4 +89,8 @@
     width: 400px;
     max-width: 100%;
   }
+
+  .ver-linkedin a{
+    margin:70px auto;
+  }
 }
