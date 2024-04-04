@@ -15,6 +15,7 @@
 
 .infos-exp h2 {
   font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 .infos-exp h3 {
@@ -100,4 +101,34 @@
 
 .experiencia:first-child::before {
   background: linear-gradient(180deg, #55ff33, #2d8b1a);
+}
+
+@media screen and (max-width: 641px) {
+  .descritivo {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+  }
+
+  .infos-exp h2 {
+    font-size: 1.5rem;
+    margin-top:12px;
+  }
+
+  .infos-exp h3{
+    font-size: 1.1rem;
+  }
+
+  .infos-exp h4{
+    font-size: 0.8rem;
+  }
+
+  .experiencia{
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .infos-exp h2 {
+    font-size: 1.2rem;
+    margin-top:5px;
+  }
 }
