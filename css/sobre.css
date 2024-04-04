@@ -99,6 +99,7 @@
 @media screen and (max-width: 600px) {
   .sobre-mim {
     padding-top: 60px;
+    margin: 0 0 200px 0;
   }
 }
 
