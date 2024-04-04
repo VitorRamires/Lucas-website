@@ -68,7 +68,8 @@
   }
 
   .box-sobre-mim {
-    padding: 90px 55px;
+    padding: 90px 25px;
+    text-align: center;
   }
 
   .sobre-mim-principal {
@@ -92,5 +93,16 @@
 
   .ver-linkedin a{
     margin:70px auto;
+  }
+}
+
+@media screen and (max-width:397px) {
+  .box-sobre-mim h2{
+    font-size:2.5rem;
+  }
+
+  .texto-sobre p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
   }
 }
