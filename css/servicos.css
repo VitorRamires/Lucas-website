@@ -88,3 +88,21 @@
     padding: 0 2% 0 0;
   }
 }
+
+@media screen and (max-width:550px) {
+  .lista-servicos h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:440px) {
+  .lista-servicos h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .lista-servicos h2 {
+    font-size: 1.7rem;
+  }
+}

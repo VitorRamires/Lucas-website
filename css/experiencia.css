@@ -103,6 +103,14 @@
   background: linear-gradient(180deg, #55ff33, #2d8b1a);
 }
 
+
+
+@media screen and (max-width:840px) {
+  .experiencias{
+    padding:180px 0 50px 0;
+  }
+}
+
 @media screen and (max-width: 641px) {
   .descritivo {
     font-size: 0.75rem;
