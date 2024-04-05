@@ -17,7 +17,7 @@
 
 .imagem-servicos img {
   width: 100%;
-  min-height: 920px;
+  min-height: 1050px;
   object-fit: cover;
   display: flex;
 }
@@ -39,6 +39,7 @@
   list-style-type: none;
   font-family: "lato-regular";
   margin-left: 8%;
+  padding: 0 5% 0 0;
 }
 
 .lista-servicos ul li {
@@ -50,12 +51,40 @@
   font-family: "lato-light";
   margin: 60px 0;
   font-size: 1.3rem;
+  padding-bottom: 20px;
 }
 
-.lista-servicos ul li::before {
-  content: "";
-  position: relative;
-  width: 14px;
-  height: 14px;
-  background: linear-gradient(35deg, #3765db, #4276fc);
+
+
+@media screen and (max-width: 1100px) {
+  .lista-servicos ul li {
+    font-size: 1rem;
+  }
+
+  .lista-servicos ul li::before {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .servicos {
+    grid-template-columns: 1fr;
+  }
+  .imagem-servicos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.1;
+  }
+  .imagem-servicos img {
+    min-height: unset;
+    height: 100%;
+  }
+  .lista-servicos ul,
+  .lista-servicos h2 {
+    margin-left: 4%;
+    padding: 0 2% 0 0;
+  }
 }

@@ -203,7 +203,6 @@
 
   .banner-imagem img,
   .banner-imagem {
-    height: 300px;
-    bottom: 10%;
+    height: 450px;
   }
 }
