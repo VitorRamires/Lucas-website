@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   font-family: "lato-light";
-  margin: 150px 0 0 0;
   padding-top: 150px;
 }
 
@@ -12,7 +11,7 @@
   padding: 90px 100px;
   font-size: 1rem;
   line-height: 1.4rem;
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.288);
+  box-shadow: 20px 20px 5px 0 rgba(0, 0, 0, 0.288);
   font-family: "lato-light";
   color: #cfcfcf;
   border-radius: 5px;
@@ -51,13 +50,12 @@
   justify-content: center;
   width: 300px;
   max-width: 90%;
-  height: 70px;
+  height: 80px;
   padding: 20px;
   color: #ffffff;
   background-color: #294282;
   font-size: 1.5rem;
   text-decoration: none;
-  border-radius: 5px;
   font-family: "lato-regular";
   margin: 70px 0 10px 0;
 }
