@@ -2,7 +2,8 @@
   position: relative;
   width: 100%;
   font-family: "lato-light";
-  padding-top: 150px;
+  padding: 150px 0 200px 0; 
+  background-color: #1b1b1b;
 }
 
 .box-sobre-mim {
@@ -33,10 +34,10 @@
 .decoration {
   position: absolute;
   width: 100%;
-  height: 600px;
-  bottom: 0;
+  height:350px;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, 15%);
+  transform: translate(-50%, -60%);
   background: linear-gradient(180deg, #4276fc, #3758ac);
 }
 

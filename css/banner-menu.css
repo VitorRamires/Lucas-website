@@ -83,12 +83,13 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 0.58fr 0.42fr;
+  background:linear-gradient(360deg, #1b1b1b, #424242);
+  padding-bottom: 30px;
 }
 
 .banner-info {
   position: relative;
   width: 100%;
-  background: linear-gradient(180deg, #1a1919, #262626);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,6 +127,11 @@
   max-width: 100%;
   display: flex;
   object-fit: cover;
+  border-radius: 0 0 0 30px;
+}
+
+.banner-imagem{
+  box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.281);
 }
 
 @media screen and (max-width: 1150px) {
