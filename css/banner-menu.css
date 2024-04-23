@@ -84,7 +84,6 @@
   display: grid;
   grid-template-columns: 0.58fr 0.42fr;
   background:linear-gradient(360deg, #1b1b1b, #424242);
-  padding-bottom: 30px;
 }
 
 .banner-info {
@@ -127,11 +126,10 @@
   max-width: 100%;
   display: flex;
   object-fit: cover;
-  border-radius: 0 0 0 30px;
 }
 
 .banner-imagem{
-  box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.281);
+  box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.281);
 }
 
 @media screen and (max-width: 1150px) {
