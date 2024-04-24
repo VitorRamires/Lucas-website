@@ -4,14 +4,9 @@
     <link rel="stylesheet" href="/css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portifólio do gerente de projetos Lucas Ramires"
-    />
-    <meta
-      name="keywords"
-      content="RPA, projetos, gerente de projetos, consultor, consultor RPA, Lucas, Lucas Martins, Lucas Martins Ramires"
-    />
+    <meta name="description" content="Portifólio do gerente de projetos Lucas Ramires"/>
+    <meta name="keywords" content="RPA, projetos, gerente de projetos, consultor, consultor RPA, Lucas, Lucas Martins, Lucas Martins Ramires"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Lucas Ramires</title>
   </head>
   <body>
@@ -87,37 +82,43 @@
       </section>
       <section class="projetos">
         <div class="center">
-          <div class="control-box">
-            <div class="arrow arrow-left">
-              <img src="/assets/img/arrow-left.svg" />
-            </div>
-            <div class="arrow arrow-right">
-              <img src="/assets/img/arrow-right.svg" />
-            </div>
-          </div>
+          <div class="slider-btn swiper-button-prev"></div>
+          <div class="slider-btn swiper-button-next"></div>
           <div class="section-titulo">
             <img src="/assets/img/decoration-title.svg" alt="decoration-image"/>
             <h2>Principais Projetos</h2>
           </div>
-          <div class="projetos-carousel">
-              <div class="projeto">
-                <div class="projeto-img">
-                  <img src="/assets/img/Petrobras.jpg" alt="petrobras-logo"/>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="logo-slide">
+                  <img src="/assets/img/Petrobras.jpg" alt="">
                 </div>
-                <div class="projeto-info">
-                  <p>Petrobras RPA</p>
-                  <a href="#" class="btn-ver-mais">Ver mais</a>
-                </div>
-              </div>
-              <div class="projeto">
-                <div class="projeto-img">
-                  <img src="/assets/img/Petrobras.jpg" alt="petrobras-logo"/>
-                </div>
-                <div class="projeto-info">
-                  <p>Petrobras RPA</p>
-                  <a href="#" class="btn-ver-mais">Ver mais</a>
+                <div class="info-slide">
+                  <h2>Petrobras</h2>
+                  <button>Ver mais</button>
                 </div>
               </div>
+              <div class="swiper-slide">
+                <div class="logo-slide">
+                  <img src="/assets/img/siteimprove_logo.png" alt="">
+                </div>
+                <div class="info-slide">
+                  <h2>Siteimprove</h2>
+                  <button>Ver mais</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="logo-slide">
+                  <img src="/assets/img/GAVB.jpg" alt="">
+                </div>
+                <div class="info-slide">
+                  <h2>GAVB</h2>
+                  <button>Ver mais</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -138,8 +139,7 @@
                     <h4 class="cliente">Petrobras (BR)</h4>
                   </article>
                   <article class="descritivo">
-                    <p>
-                      Voltado a automação de processos internos da
+                    <p>Voltado a automação de processos internos da
                       Petrobras.Possuo atuação direta com o P&L do projeto,
                       buscando sempre propor novas ações para melhoria da margem
                       de lucratividade atual, além de trazer uma maior
@@ -162,8 +162,7 @@
                       contratos do cliente. Quando assumi o projeto, o mesmo
                       estava com uma margem próxima de -152% e hoje estamos com
                       perspectivas de alcançar valores de margem de lucro no
-                      ordem de 6 a 10% (positivo).
-                    </p>
+                      ordem de 6 a 10% (positivo).</p>
                   </article>
                 </div>
               </div>
@@ -346,4 +345,18 @@
       </section>
     </main>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView: 2,
+      spaceBetween: 25,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </html>

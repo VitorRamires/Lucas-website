@@ -7,96 +7,75 @@
   box-shadow: inset 0 -50px 0 0 #203d87;
 }
 
+.projetos .center{
+  max-width: 100%;
+}
+
 .projetos .section-titulo{
   color:#324880;
 }
 
-.projetos-carousel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logo-slide img{
   width: 100%;
-  place-items: center;
-  gap: 50px;
-  
-}
-
-.projeto {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  position: relative;
-  color: #ffffff;
-  text-align: center;
-  font-family: "lato-light";
-}
-
-
-.projeto img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  margin:0 auto;
   display: flex;
 }
 
-.projeto-info {
-  width: 100%;
-  margin:0 auto;
-  display: flex;
+.swiper{
+  width: 1200px;
+  max-width: 88.9%;
+  cursor: grab;
+  display: flex !important;
+}
+
+
+.swiper-slide{
+  height: unset !important;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(35deg, #3c68d9, #1640aa);
-  padding: 50px 20px;
   font-family: "lato-regular";
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-
-.btn-ver-mais {
-  display: inline-block;
-  width: 130px;
-  padding: 9px;
-  background-color: #294282;
-  text-align: center;
-  font-size: 1.1rem;
   color: #ffffff;
-  text-decoration: none;
-  margin-top: 20px;
-  border-radius: 3px;
+  box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.404);
 }
 
-.control-box {
-  position: absolute;
+.swiper-wrapper{
+  width: 100px !important;
+}
+
+.info-slide{
   width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
+  padding:40px 0;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  z-index: 1;
+  justify-content: center;
+  gap: 20px;
+  background-color: #3C68D9;
 }
 
-.arrow {
-  position: relative;
-  width: 95px;
-  height: 95px;
+.info-slide button{
+  width: 150px;
+  padding: 15px 0;
+  background-color: #294282;
+  outline: none;
+  border:none;
+  font-size: 1rem;
+  color: #ffffff;
   cursor: pointer;
-  background-color: #808080;
-  border-radius: 20%;
 }
 
-.arrow img {
-  width: 100%;
-  height: 100%;
+.slider-btn{
+  padding:33px;
+  height: 74% !important;
+  bottom: 0 !important;
+  top:unset !important;
 }
 
-.arrow-left {
-  transform: translateX(-130%);
+.swiper-button-next{
+  border-radius: 0 5px 5px 0;
 }
-.arrow-right {
-  transform: translateX(130%);
+
+.swiper-button-prev{
+  border-radius: 5px 0 0 5px;
 }
