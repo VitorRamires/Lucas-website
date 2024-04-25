@@ -2,9 +2,9 @@
   position: relative;
   width: 100%;
   z-index: 4;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   padding: 200px 0 0 0;
-  box-shadow: inset 0 -50px 0 0 #203d87;
+  box-shadow: inset 0 -230px 0 0 #203d87;
 }
 
 .projetos .center{
@@ -36,7 +36,7 @@
   justify-content: center;
   font-family: "lato-regular";
   color: #ffffff;
-  box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.404);
+  padding-bottom: 20px;
 }
 
 .swiper-wrapper{
@@ -52,6 +52,7 @@
   justify-content: center;
   gap: 20px;
   background-color: #3C68D9;
+  box-shadow: 0 15px 10px -5px  rgba(0, 0, 0, 0.404);
 }
 
 .info-slide button{
@@ -66,16 +67,21 @@
 }
 
 .slider-btn{
-  padding:33px;
-  height: 74% !important;
   bottom: 0 !important;
-  top:unset !important;
+  top:55% !important;
+  transform: translateY(-55%);
+  background-color: transparent;
+  border: 2px solid #3C68D9;
 }
 
 .swiper-button-next{
-  border-radius: 0 5px 5px 0;
+  padding: 40px;
+  border-radius: 50%;
+  transform: translateX(100%);
 }
 
 .swiper-button-prev{
-  border-radius: 5px 0 0 5px;
+  padding: 40px;
+  border-radius: 50%;
+  transform: translateX(-100%);
 }
