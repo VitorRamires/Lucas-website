@@ -81,9 +81,6 @@
   bottom: 0 !important;
   top:55% !important;
   transform: translateY(-55%);
-  background-color: transparent;
-  border: 2px solid #3C68D9;
-  background-color: #ffffff;
 }
 
 .swiper-button-next{
@@ -108,10 +105,6 @@
     padding:10px 20px;
   }
 
-  .swiper-button-next:after, .swiper-button-prev:after{
-    font-size: 1.1rem !important;
-  }
-
   .projetos .center {
     max-width: 85%;
   }
@@ -122,6 +115,16 @@
 
   .info-slide{
     padding: 15px 0;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .slider-btn{
+    border: none;
+  }
+
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 1.6rem !important;
   }
 }
 

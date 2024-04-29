@@ -17,6 +17,7 @@
   font-family: "lato-light";
   color: #cfcfcf;
   z-index: 10;
+  border-radius: 10px;
 }
 
 .box-sobre-mim::after{
@@ -30,6 +31,7 @@
   transform: translate(-50%, -100%);
   box-shadow: 20px 2px 5px 0 rgba(0, 0, 0, 0.288);
   z-index: 9;
+  border-radius: 10px 10px 0 0;
 }
 
 .box-sobre-mim::before{
@@ -43,6 +45,7 @@
   transform: translate(-50%, -200%);
   box-shadow: 20px 20px 5px 0 rgba(0, 0, 0, 0.288);
   z-index: 8;
+  border-radius: 10px 10px 0 0;
 }
 
 .sobre-mim-principal {
@@ -85,6 +88,7 @@
   text-decoration: none;
   font-family: "lato-regular";
   margin: 30px 0 10px 0;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1150px) {
