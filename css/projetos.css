@@ -38,7 +38,7 @@
   justify-content: center;
   font-family: "lato-regular";
   color: #ffffff;
-  padding: 6px;
+  padding: 3px;
   background: linear-gradient(90deg, #ececec,rgba(219, 219, 219, 0.411));
   border-radius: 15px;
   box-shadow: 0 20px 10px -5px  rgba(0, 0, 0, 0.342);
@@ -105,11 +105,23 @@
   }
 
   .swiper-button-prev, .swiper-button-next{
-    padding:20px;
+    padding:10px 20px;
   }
 
   .swiper-button-next:after, .swiper-button-prev:after{
     font-size: 1.1rem !important;
+  }
+
+  .projetos .center {
+    max-width: 85%;
+  }
+
+  .section-titulo{
+    margin-bottom: 50px;
+  }
+
+  .info-slide{
+    padding: 15px 0;
   }
 }
 
