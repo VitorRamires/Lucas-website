@@ -75,6 +75,7 @@
   font-size: 1rem;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .slider-btn{
