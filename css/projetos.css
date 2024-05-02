@@ -38,8 +38,8 @@
   font-family: "lato-regular";
   color: #ffffff;
   padding: 3px;
-  background: linear-gradient(90deg, #ececec,rgba(219, 219, 219, 0.411));
-  border-radius:  0 0 15px 15px;
+  background: #ffffff;
+  border-radius:  5px 5px 15px 15px;
   box-shadow: 0 20px 10px -5px  rgba(0, 0, 0, 0.342);
   transition: 0.2s;
 }
