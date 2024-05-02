@@ -1,7 +1,22 @@
 .center{
-  width: 1800px;
+  width: 1600px;
   max-width: 90%;
   margin:0 auto;
+}
+
+.sobre-projeto{
+  display: flex;
+  align-items: Start;
+  justify-content: space-between;
+  margin:60px auto 30px auto;
+  gap: 10px;
+}
+
+.sobre-projeto-decoration{
+  position: relative;
+  width: 8%;
+  height: 60px;
+  background-color: #5A88FF;
 }
 
 .sobre-projeto .center{
@@ -9,14 +24,19 @@
   grid-template-columns: 1fr 1fr;
   gap: 70px;
   font-family: "lato-light";
-  margin:60px auto 30px auto;
   place-items: start center;
 }
 
+
 .sobre-projeto-texto h2{
+  display: flex;
+  align-items: center;
+  justify-content: start;
   margin-bottom: 20px;
   font-size: 2rem;
 }
+
+
 
 .sobre-projeto-texto p{
   line-height: 1.4;
