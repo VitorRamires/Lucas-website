@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 1150px) {
   .box-sobre-mim {
-    padding: 90px 25px;
+    padding: 90px 25px 30px 25px;
     text-align: center;
   }
 
@@ -110,6 +110,15 @@
   }
 }
 
+
+@media screen and (max-width:985px) {
+  .sobre-mim {
+    padding: 8rem 0 5rem 0;
+  }
+  .box-sobre-mim{
+    box-shadow: none;
+  }
+}
 
 
 @media screen and (max-width: 397px) {

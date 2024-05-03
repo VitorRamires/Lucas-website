@@ -107,17 +107,12 @@
 }
 
 @media screen and (max-width: 900px) {
-
-  .projetos{
-    padding:150px 19px 0 19px;
-  }
-
   .swiper-button-prev, .swiper-button-next{
     padding:10px 20px;
   }
 
   .projetos .center {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   .section-titulo{
@@ -136,6 +131,10 @@
 
   .swiper-button-next:after, .swiper-button-prev:after{
     font-size: 1.6rem !important;
+  }
+
+  .projetos{
+    padding:100px 19px 0 19px;
   }
 }
 

@@ -150,13 +150,14 @@
   .banner {
     position: relative;
     top: unset;
-    place-items: start;
+    place-items: center;
     grid-template-columns: 1fr;
     height: 100%;
+    padding-bottom: 60px;
   }
 
   .banner-info {
-    padding: 120px 10px;
+    padding: 120px 10px 70px 0;
     text-align: center;
   }
 
@@ -170,10 +171,8 @@
 
   .banner-imagem img,
   .banner-imagem {
-    height: 550px;
-    margin: 0 auto;
-    bottom: 4%;
-    border-radius: 7px;
+    height: 80vw;
+    border-radius: 10px;
   }
 
   .texto h3 {
@@ -197,21 +196,10 @@
     border-bottom: 3px solid #3765db;
     z-index: 10;
   }
-
-  .banner-imagem img,
-  .banner-imagem {
-    height: 450px;
-    bottom: 4%;
-  }
 }
 
 @media screen and (max-width: 450px) {
   .texto h2 {
     font-size: 2.7rem;
-  }
-
-  .banner-imagem img,
-  .banner-imagem {
-    height: 450px;
   }
 }
