@@ -84,6 +84,7 @@
   display: grid;
   grid-template-columns: 0.58fr 0.42fr;
   background:linear-gradient(360deg, #1b1b1b, #424242);
+  border-bottom: 6px solid #3765db;
 }
 
 .banner-info {
