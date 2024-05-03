@@ -7,6 +7,12 @@
   padding:15rem 0 5rem 0;
 }
 
+.sobre-mim .center {
+  width: 1350px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .box-sobre-mim {
   position: relative;
   background: linear-gradient(180deg,#2c2c2c, #646464);
@@ -21,14 +27,12 @@
 }
 
 
-
 .sobre-mim-principal {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 120px;
 }
-
 
 .box-sobre-mim h2 {
   font-size: 3.3rem;
@@ -64,6 +68,12 @@
   font-family: "lato-regular";
   margin: 30px 0 10px 0;
   border-radius: 5px;
+  transition: 0.2s;
+}
+
+.ver-linkedin a:hover{
+  background-color: #1c2d58;
+  transition: 0.2s;
 }
 
 .icone-sobre img{

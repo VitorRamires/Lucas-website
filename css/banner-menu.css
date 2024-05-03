@@ -36,6 +36,10 @@
   color: #ffff;
 }
 
+.linkedin a{
+  color: #ffffff;
+}
+
 .links ul {
   gap: 50px;
   height: 100%;
@@ -60,7 +64,7 @@
   transition: 0.2s;
 }
 
-.links ul li a {
+.links ul li a{
   position: relative;
   color: #ffffff;
   text-decoration: none;
