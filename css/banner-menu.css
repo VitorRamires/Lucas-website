@@ -1,13 +1,25 @@
+.menu{
+  position: sticky;
+  top:0;
+  left:0;
+  z-index: 999;
+  height: 110px;
+}
+
 .menu-desk {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 130px;
+  height: 100%;
   background-color: #232323;
   border-bottom: 3px solid #3765db;
   z-index: 9;
+}
+
+.menu-mobile{
+  display: none;
 }
 
 .menu-desk .center {
@@ -84,7 +96,7 @@
 .banner {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 88vh;
   display: grid;
   grid-template-columns: 0.58fr 0.42fr;
   background:linear-gradient(360deg, #1b1b1b, #424242);
@@ -186,16 +198,112 @@
     display: none;
   }
 
+  .hamburguer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+  }
+
+  .open{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    opacity: 0;
+    z-index: 16;
+    transition: 0.2s;
+  }
+
+  .open .line{
+    position: relative;
+    width: 60px;
+    height: 6px;
+    background: linear-gradient(90deg, #CEDCFF, #3C68D9);
+  }
+
+  .close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+  }
+  
+  .close .line:first-child{
+    width: 6px;
+    height: 60px;
+    background: linear-gradient(-45deg, #CEDCFF, #3C68D9);
+    transform: rotate(45deg) translateX(3px);
+  }
+  
+  .close .line:last-child{
+    width: 6px;
+    height: 60px;
+    background: linear-gradient(180deg, #CEDCFF, #3C68D9);
+    transform: rotate(-45deg) translateX(-3px);;
+  }
+
   .menu-mobile {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    padding:40px 0 40px 0;
     background-color: #232323;
     border-bottom: 3px solid #3765db;
     z-index: 10;
   }
+  
+  .menu-mobile .links{
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    background-color: #232323;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+
+  .menu-mobile .links ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:50px 0 10px 0;
+  }
+
+  .links ul li:hover::after {
+    background-color: none;
+    height: unset;
+  }
+}
+
+.menu-opened{
+  height: 300px !important;
+  visibility:visible !important;
+  transition: 0.2s;
+}
+
+.show-close-btn{
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.show-open-btn{
+  opacity: 1;
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 450px) {
