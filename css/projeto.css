@@ -30,7 +30,7 @@
 .sobre-projeto{
   position: relative;
   display: flex;
-  align-items: Start;
+  align-items: start;
   justify-content: space-between;
   margin:120px auto 0 auto;
   gap: 10px;
@@ -42,7 +42,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 70px;
   font-family: "lato-light";
-  place-items: start center;
+  place-items: center;
 }
 
 .sobre-projeto-texto{
@@ -64,13 +64,12 @@
 
 .img-projeto {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
 .img-projeto img{
-  width: 100%;
-  height: 100%;
+  width: 40vw;
+  max-width: 750px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -124,13 +123,14 @@
 
 .impactos-projeto{
   position: relative;
-  margin-top:90px;
+  margin-top:150px;
   font-family: "lato-light";
   box-shadow: 0 -250px 0 0 #ffffff;
   z-index: 3;
 }
 
 .impactos-projeto h2{
+  font-size: 2rem;
   margin-bottom:30px;
 }
 
@@ -167,3 +167,74 @@
 
 }
 
+@media screen and (min-width:1600px) {
+  .sobre-projeto .center{
+    place-items: start center;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .sobre-projeto .center{
+    grid-template-columns: 1fr;
+  }
+
+  .img-projeto img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.sobre-projeto-texto {
+  padding-bottom: 0;
+}
+
+.box-objetivos{
+  flex-direction: column;
+}
+
+.objetivo{
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width:700px) {
+  .box-tags ul{
+    flex-direction: column;
+    align-items: unset;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .decoracao-projeto{
+    display: none;
+  }
+
+  .sobre-projeto-texto, .impacto-box, .objetivo, .objetivo-projeto{
+    text-align: center;
+  }
+
+  .impacto-box h2, .sobre-projeto-texto h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .impacto-box h2, .sobre-projeto-texto h2{
+    margin-bottom: 20px;
+  }
+
+  .impacto-box p {
+    font-size: 1rem;
+}
+
+  .sobre-projeto-texto h2::after, .impacto-box h2::after{
+    position: relative;
+    content: "";
+    width: 250px;
+    height: 5px;
+    background-color: #5A88FF;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,64 @@
+.animation-target{
+    opacity: 0;
+    transition: 0.3s;
+}
+.active-animation{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.texto h2.animation-target, 
+.texto h3.animation-target{
+    transform: translateX(-30px);
+}
+.texto h2.active-animation, 
+.texto h3.active-animation{
+    transform: translateX(0);
+}
+
+
+.banner-imagem.animation-target{
+    transform: translateX(30px);
+}
+.banner-imagem.active-animation{
+    transform: translateX(0);
+}
+
+
+.box-sobre-mim.animation-target{
+    transform: translateY(-70px);
+}
+.box-sobre-mim.active-animation{
+    transform: translateY(0);
+}
+
+
+.texto-sobre h2.animation-target,
+.texto-sobre p.animation-target{
+    transform: translateX(-30px);
+}
+.texto-sobre h2.active-animation,
+.texto-sobre p.active-animation{
+    transition-delay: 0.1s;
+    transform: translateX(0);
+}
+.icone-sobre.active-animation{
+    transition-delay: .3s; 
+}
+
+
+.dados-experiencia.animation-target{
+    transform: translateY(-30px);
+}
+.dados-experiencia.active-animation{
+    transform: translateY(0); 
+}
+
+ 
+ul.animation-target{
+    transform: translateX(-60px);
+}
+
+ul.active-animation{
+    transform: translateX(0);
+}
