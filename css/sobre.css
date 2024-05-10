@@ -78,7 +78,10 @@
 
 .icone-sobre img{
   width: 20vw;
+  max-width: 450px;
 }
+
+
 
 @media screen and (max-width: 1150px) {
   .box-sobre-mim {
