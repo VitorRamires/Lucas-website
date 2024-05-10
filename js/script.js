@@ -22,7 +22,7 @@ hamburguerIcon.addEventListener('click', ()=>{
 function handlerScroll(){
   animationTargets.forEach(target=>{
     let elementFromTop = target.getBoundingClientRect().top
-    let windowHeight = window.innerHeight * 0.7
+    let windowHeight = window.innerHeight * 0.85
     if(elementFromTop < windowHeight){
       target.classList.add('active-animation')
     } else if (elementFromTop > windowHeight){

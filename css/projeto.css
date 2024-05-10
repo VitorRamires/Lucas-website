@@ -1,3 +1,4 @@
+
 .sobre-projeto .center, 
 .objetivo-projeto .center, 
 .impactos-projeto .center{
@@ -222,7 +223,7 @@
   }
 
   .impacto-box h2, .sobre-projeto-texto h2{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .impacto-box p {
