@@ -1,8 +1,9 @@
 .experiencias {
-  position: relative;
   width: 100%;
   background: linear-gradient(180deg, #203d87, #34487c);
   padding: 180px 0;
+  box-shadow: 0 -165px 0 0 #203d87;
+  z-index: 5;
 }
 
 .infos-exp {

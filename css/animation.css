@@ -44,6 +44,7 @@
 }
 .icone-sobre.active-animation{
     transition-delay: .3s; 
+    transform: translateX(0);
 }
 
 
@@ -60,5 +61,50 @@ ul.animation-target{
 }
 
 ul.active-animation{
+    transform: translateX(0);
+}
+
+
+.decoracao-projeto.active-animation{
+    width: 70px;
+    transition: 0.2s;
+}
+.sobre-projeto-texto.animation-target,
+.impacto-box,.animation-target{
+    transform: translateX(-30px);
+    transition-delay: 0.1s;
+}
+.sobre-projeto-texto.active-animation,
+.impacto-box.active-animation{
+    transform: translateX(0);
+}
+.img-projeto.animation-target{
+    transform: translateY(-20px);
+    transition-delay: 0.1s;
+}
+.img-projeto.active-animation{
+    transform: translateY(0);
+}
+
+
+.objetivo.animation-target{
+    transform: translateY(-20px);
+}
+.objetivo:nth-child(2).animation-target{
+    transition-delay: 0.2s;
+}
+.objetivo:nth-child(3).animation-target{
+    transition-delay: 0.3s;
+}
+.objetivo.active-animation{
+    transform: translateY(0);
+}
+
+
+
+.tecnologia.animation-target{
+    transform: translateX(-20px);
+}
+.tecnologia.active-animation{
     transform: translateX(0);
 }

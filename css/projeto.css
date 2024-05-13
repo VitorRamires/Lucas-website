@@ -9,7 +9,10 @@
 }
 
 .decoracao-projeto{
-  width: 70px;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 0;
   max-width: 4%;
   height: 30px;
   background-color: #5A88FF;
@@ -166,6 +169,47 @@
 
 }
 
+
+.tecnologias-relacionadas{
+  background-color: #f8f8f8;
+  width: 100%;
+  margin:120px auto 0 auto;
+  position: relative;
+  box-shadow: inset 0 80px 0 0 #ffffff;
+}
+
+.tecnologias-relacionadas .center{
+  width: 1600px;
+  max-width: 90%;
+  padding: 50px 0 50px 0;
+}
+
+
+.tec-box{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 45px;
+}
+
+.tec-box img{
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tecnologias-relacionadas h2{
+  font-size: 1.3rem;
+  width: max-content;
+  font-family: "lato-light";
+  color: #ffffff;
+  margin:0 0 50px 0;
+  padding:20px;
+  background-color: #7e7e7e;
+  border-radius: 10px;
+}
+
 @media screen and (min-width:1600px) {
   .sobre-projeto .center{
     place-items: start center;
@@ -183,6 +227,43 @@
     grid-template-columns: 1fr;
   }
 
+  .decoracao-projeto{
+    display: none;
+  }
+
+  .impacto-box h2, .sobre-projeto-texto h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .sobre-projeto-texto h2::after, .impacto-box h2::after{
+    position: relative;
+    content: "";
+    width: 250px;
+    height: 5px;
+    background-color: #5A88FF;
+    border-radius: 5px;
+  }
+
+  .sobre-projeto-texto, .impacto-box p{
+    text-align: center;
+  }
+
+  .box-tags{
+    margin:60px auto;
+  }
+
+  .box-tags ul{
+    justify-content: center;
+  }
+
+  .sobre-projeto-texto h2 {
+    justify-content: center;
+}
+
   .img-projeto img {
     width: 100%;
     max-width: 100%;
@@ -198,6 +279,19 @@
 
   .objetivo{
     width: 100%;
+  }
+
+  .tec-box{
+    justify-content: center;
+  }
+
+  .tecnologias-relacionadas .center{
+    text-align: center;
+  }
+
+  .tecnologias-relacionadas h2{
+    margin: 0 auto 50px auto;
+    width: 95%;
   }
 }
 
@@ -231,14 +325,9 @@
 
   .impacto-box p {
     font-size: 1rem;
-}
+  }
 
-  .sobre-projeto-texto h2::after, .impacto-box h2::after{
-    position: relative;
-    content: "";
-    width: 250px;
-    height: 5px;
-    background-color: #5A88FF;
-    border-radius: 5px;
+  .objetivo{
+    padding: 40px 10px 60px 10px;
   }
 }
