@@ -63,6 +63,11 @@ main {
   height: 100%;
 }
 
+.bandeira img{
+  width: 30px;
+  height: 30px;
+}
+
 @media screen and (max-width: 710px) {
   .section-titulo {
     font-size: 2rem;
