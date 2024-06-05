@@ -39,10 +39,14 @@ setTimeout(() => {
 
 window.addEventListener('scroll', handlerScroll);
 
-window.onload = () => {
-  linksLanguages.forEach((link) => {
-    localStorage.setItem('language', link.href);
-    let getOnStorage = localStorage.getItem('language');
-    console.log(getOnStorage);
+/* handlesTranslate */
+
+localStorage.setItem('url', location.href);
+let getStorage = localStorage.getItem('url');
+
+linksLanguages.forEach((link) => {
+  link.addEventListener('click', () => {
+    location.href = getStorage;
   });
-};
+});
+
