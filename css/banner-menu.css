@@ -149,6 +149,15 @@
   box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.281);
 }
 
+.bandeira{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "lato-regular";
+  gap: 8px;
+}
+
 @media screen and (max-width: 1150px) {
   .texto h2 {
     font-size: 4rem;
