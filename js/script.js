@@ -4,7 +4,7 @@ const closeMenu = document.querySelector('.close');
 const openMenu = document.querySelector('.open');
 const linksMenuMobile = document.querySelectorAll('.links ul li');
 const animationTargets = document.querySelectorAll('.animation-target');
-const linksLanguages = document.querySelectorAll('.bandeira a');
+const linksLanguages = document.querySelectorAll('a');
 const defaultPage = document.querySelector('.default-page');
 
 if (hamburguerIcon) {
