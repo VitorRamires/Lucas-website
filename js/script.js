@@ -5,6 +5,7 @@ const openMenu = document.querySelector('.open');
 const linksMenuMobile = document.querySelectorAll('.links ul li');
 const animationTargets = document.querySelectorAll('.animation-target');
 const linksLanguages = document.querySelectorAll('.bandeira a');
+const defaultPage = document.querySelector('.default-page');
 
 if (hamburguerIcon) {
   hamburguerIcon.addEventListener('click', () => {
@@ -40,13 +41,17 @@ setTimeout(() => {
 window.addEventListener('scroll', handlerScroll);
 
 /* handlesTranslate */
-
-localStorage.setItem('url', location.href);
-let getStorage = localStorage.getItem('url');
-
 linksLanguages.forEach((link) => {
+  let linkUrl = link.href;
   link.addEventListener('click', () => {
-    location.href = getStorage;
+    localStorage.setItem('url', linkUrl);
   });
 });
 
+if (localStorage.getItem('url') === null) {
+  localStorage.setItem('url', defaultPage.href);
+} else {
+  localStorage.getItem('url') !== document.location.href
+    ? (document.location.href = localStorage.getItem('url'))
+    : document.location.href;
+}
