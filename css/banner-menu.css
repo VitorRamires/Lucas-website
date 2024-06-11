@@ -155,7 +155,21 @@
   justify-content: center;
   color: #ffffff;
   font-family: "lato-regular";
-  gap: 8px;
+  gap: 15px;
+}
+
+.bandeira img{
+  width: 30px;
+  height: 30px;
+}
+
+.eua, .brasil{
+  padding:10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
 }
 
 @media screen and (max-width: 1150px) {
@@ -202,7 +216,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .menu-desk {
     display: none;
   }
@@ -301,7 +315,7 @@
 }
 
 .menu-opened{
-  height: 300px !important;
+  height: 400px !important;
   visibility:visible !important;
   transition: 0.2s;
 }
