@@ -4,7 +4,7 @@ const closeMenu = document.querySelector('.close');
 const openMenu = document.querySelector('.open');
 const linksMenuMobile = document.querySelectorAll('.links ul li');
 const animationTargets = document.querySelectorAll('.animation-target');
-const linksLanguages = document.querySelectorAll('a');
+const linksLanguages = document.querySelectorAll('.menu-link a');
 const defaultPage = document.querySelector('.default-page');
 
 if (hamburguerIcon) {
@@ -41,6 +41,9 @@ setTimeout(() => {
 window.addEventListener('scroll', handlerScroll);
 
 /* handlesTranslate */
+
+localStorage.clear();
+
 linksLanguages.forEach((link) => {
   let linkUrl = link.href;
   link.addEventListener('click', () => {
