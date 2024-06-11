@@ -172,6 +172,13 @@
   background-color: #ffff;
 }
 
+.projeto-page .menu-mobile .center{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 1150px) {
   .texto h2 {
     font-size: 4rem;
